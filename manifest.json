@@ -1,0 +1,14 @@
+{
+  "name": "SBC",
+  "short_name": "SBC",
+  "theme_color": "#2196f3",
+  "background_color": "#2196f3",
+  "display": "standalone",
+  "start_url": "/pwa/index.php",
+  "icons": [{
+    "src": "ShareX_Logo_1024.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }],
+  "splash_pages": null
+}

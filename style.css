@@ -1,0 +1,15 @@
+body{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 100px 1fr;
+}
+h1{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+div#users{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
