@@ -3,7 +3,6 @@ const staticAssests = [
   '/',
   '/ShareX_Logo_1024.png',
   '/style.css',
-  '/pwatest.js',
 ];
 
 self.addEventListener('install', event=>{

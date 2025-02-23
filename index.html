@@ -2,25 +2,13 @@
 <html>
   <head>
     <link rel="manifest" href="manifest.json">
-    <script type="text/javascript" src="pwatest.js"></script>
     <link rel="stylesheet" href="style.css">
     <script type="text/javascript">
-    if ('serviceWorker' in navigator) {
-      window.addEventListener('load', () => {
-        navigator.serviceWorker.register('sw.js')
-            .then((reg) => {
-              console.log('Service worker registered.', reg);
-            }).catch(e=>{
-              console.log(e);
-            });
-      });
-      }
     </script>
   </head>
-  <body onload="getData()">
-    <h1>Welcome!!</h1>
-    <div class="" id="users">
-
-    </div>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>Work in Progress</h1>
   </body>
 </html>
